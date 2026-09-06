@@ -1,8 +1,12 @@
 theme: jekyll-theme-cayman
 title: 全球要闻
-description: 每天六点半，为您精选全球要闻
+description: 每天七点，为您精选全球要闻
 baseurl: "/Horizon" # the subpath of your site, e.g. /blog
 url: "https://thysrael.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+github:
+  is_project_page: false
+  show_downloads: false
 
 # Build settings
 markdown: kramdown
