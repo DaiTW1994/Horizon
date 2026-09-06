@@ -19,7 +19,7 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 6.0,
+        "threshold": 7.0,
         "topic_dedup": true
       },
       "tech-blog": {
@@ -27,11 +27,11 @@
         "topic_dedup": false
       },
       "finance-news": {
-        "threshold": 6.0,
+        "threshold": 7.0,
         "topic_dedup": true
       },
         "politics": {
-        "threshold": 5.0,
+        "threshold": 7.0,
         "topic_dedup": true
       }
     }
