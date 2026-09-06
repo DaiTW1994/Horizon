@@ -121,6 +121,13 @@
         "category": "linux-kernel",
         "profile": "tech-news"
       }
+      {
+        "name": "The Economist",
+        "url": "https://medium.com/feed/the-economist",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      }
     ],
     "reddit": {
       "enabled": true,
