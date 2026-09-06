@@ -168,6 +168,20 @@
         "profile": "politics"
       },
       {
+        "name": "BBC World",
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "politics"
+      },
+      {
+        "name": "DW Chinese",
+        "url": "https://rss.dw.com/rdf/rss-chi-all",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "politics"
+      },
+      {
         "name": "NYT",
         "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
         "enabled": true,
