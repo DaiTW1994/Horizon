@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Horizon
+# 全球要闻
 
 <div id="lang-zh" class="lang-section" markdown="1">
 
