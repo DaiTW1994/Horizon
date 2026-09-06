@@ -3,7 +3,7 @@ layout: default
 title: 全球要闻
 ---
 
-# 每天七点，为您精选全球关键讯息
+# 为您精选全球关键讯息
 
 <div id="lang-zh" class="lang-section" markdown="1">
 
