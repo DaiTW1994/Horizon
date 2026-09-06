@@ -19,7 +19,7 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 7.0,
+        "threshold": 6.0,
         "topic_dedup": true
       },
       "tech-blog": {
@@ -27,11 +27,11 @@
         "topic_dedup": false
       },
       "finance-news": {
-        "threshold": 7.0,
+        "threshold": 6.0,
         "topic_dedup": true
       },
         "politics": {
-        "threshold": 6.0,
+        "threshold": 5.0,
         "topic_dedup": true
       }
     }
@@ -259,9 +259,18 @@
       "politics" 
     ],
     "category_groups": {
-          "技术动态": ["tech-news", "tech-blog"],
-          "财经要点": ["finance-news"],
-          "时政观察": ["politics"]
+          "技术动态": {
+            "categories": ["tech-news", "tech-blog"],
+            "limit": 8
+        },
+          "财经要点": {
+            "categories": ["finance-news"],
+            "limit": 8
+        },
+          "时政观察":{
+            "categories": ["politics"],
+            "limit": 8
+        }
     },
     "default_group": "other",
     "default_group_limit": null
