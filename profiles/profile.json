@@ -1,0 +1,27 @@
+{
+  "id": "politics",
+  "name": "Politics",
+  "display_names": {
+    "zh": "时政观察",
+    "en": "Politics"
+  },
+  "match": "match.txt",
+  "analysis": "analysis.txt",
+  "content": {
+    "analysis_max_chars": 1000,
+    "enrichment_max_chars": 8000,
+    "sampling": "head-middle-tail"
+  },
+  "enrichment": {
+    "prompt": "enrichment.txt",
+    "blocks": [
+      {
+        "id": "background",
+        "type": "section",
+        "tools": ["web_search"],
+        "optional": false,
+        "primary": true
+      }
+    ]
+  }
+}
