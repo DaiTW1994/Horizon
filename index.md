@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# X-News
+# Horizon
 
 <div id="lang-zh" class="lang-section" markdown="1">
 
