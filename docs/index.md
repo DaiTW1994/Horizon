@@ -3,9 +3,9 @@ layout: default
 title: 全球要闻
 ---
 
-# 为您精选关键讯息
-
 <div id="lang-zh" class="lang-section" markdown="1">
+
+# 为您精选关键讯息
 
 欢迎来到 [Horizon](https://github.com/thysrael/Horizon)，一个 AI 驱动的信息聚合系统。
 
