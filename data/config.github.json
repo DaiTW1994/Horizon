@@ -29,6 +29,10 @@
       "finance-news": {
         "threshold": 7.0,
         "topic_dedup": true
+      },
+        "politics": {
+        "threshold": 6.0,
+        "topic_dedup": true
       }
     }
   },
@@ -101,6 +105,41 @@
         "content_extractor": "trafilatura"
       },
       {
+        "name": "The Economist",
+        "url": "https://medium.com/feed/the-economist",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://feeds.bloomberg.com/markets/news.rss",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "WSJ",
+        "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "FT",
+        "url": "https://www.ft.com/companies/technology/rss",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "BBC Business",
+        "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
         "name": "GitHub Trending - Daily",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
         "enabled": true,
@@ -120,41 +159,55 @@
         "enabled": true,
         "category": "linux-kernel",
         "profile": "tech-news"
-      }
+      },
       {
-        "name": "The Economist",
-        "url": "https://medium.com/feed/the-economist",
-        "enabled": true,
-        "category": "finance",
-        "profile": "finance-news"
-      }
-            {
         "name": "Al Jazeera",
         "url": "https://www.aljazeera.com/xml/rss/all.xml",
         "enabled": true,
         "category": "world-news",
-        "profile": "finance-news"
+        "profile": "politics"
+      },
+      {
+        "name": "NYT",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "politics"
+      },
+      {
+        "name": "NPR",
+        "url": "https://feeds.npr.org/1004/rss.xml",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "politics"
+      },
+      {
+        "name": "DW 中文",
+        "url": "https://rss.dw.com/rdf/rss-chi-world",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "politics"
+      },
+      {
+        "name": "The Diplomat",
+        "url": "https://thediplomat.com/feed",
+        "enabled": true,
+        "category": "world-news",
+        "profile": "politics"
       },
       {
         "name": "The Guardian (World)",
         "url": "https://www.theguardian.com/world/rss",
         "enabled": true,
         "category": "world-news",
-        "profile": "finance-news"
+        "profile": "politics"
       },
       {
         "name": "CNN World",
         "url": "http://rss.cnn.com/rss/edition_world.rss",
         "enabled": true,
         "category": "world-news",
-        "profile": "finance-news"
-      },
-      {
-        "name": "New York Times (World)",
-        "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-        "enabled": true,
-        "category": "world-news",
-        "profile": "finance-news"
+        "profile": "politics"
       }
     ],
     "reddit": {
