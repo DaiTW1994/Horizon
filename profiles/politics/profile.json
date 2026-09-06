@@ -6,14 +6,14 @@
     "en": "Politics"
   },
   "match": "match.txt",
-  "analysis": "analysis.txt",
+  "analysis": "analysis.md",
   "content": {
     "analysis_max_chars": 1000,
     "enrichment_max_chars": 8000,
     "sampling": "head-middle-tail"
   },
   "enrichment": {
-    "prompt": "enrichment.txt",
+    "prompt": "enrichment.md",
     "blocks": [
       {
         "id": "background",
