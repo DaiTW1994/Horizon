@@ -25,6 +25,7 @@ title: 全球要闻
 </div>
 
 <div id="lang-en" class="lang-section" markdown="1">
+
 # Curated Global Briefings for You
   
 Welcome to [Horizon](https://github.com/thysrael/Horizon), an AI-driven information aggregation system.
