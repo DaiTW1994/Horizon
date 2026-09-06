@@ -1,25 +1,27 @@
-"digest": {
-    "max_items": null,
-    "profile_order": [
-        "tech-news",
-        "tech-blog",
-        "finance-news",
-        "politics"
-    ],
-    "category_groups": {
-        "技术动态": {
-            "categories": ["tech-news", "tech-blog"],
-            "limit": 8
-        },
-        "财经要点": {
-            "categories": ["finance-news"],
-            "limit": 8
-        },
-        "时政观察": {
-            "categories": ["politics"],
-            "limit": 8
-        }
-    },
-    "default_group": "other",
-    "default_group_limit": null
+{
+  "id": "politics",
+  "name": "Politics",
+  "display_names": {
+    "zh": "时政观察",
+    "en": "Politics"
+  },
+  "match": "match.txt",
+  "analysis": "analysis.txt",
+  "content": {
+    "analysis_max_chars": 1000,
+    "enrichment_max_chars": 8000,
+    "sampling": "head-middle-tail"
+  },
+  "enrichment": {
+    "prompt": "enrichment.txt",
+    "blocks": [
+      {
+        "id": "background",
+        "type": "section",
+        "tools": ["web_search"],
+        "optional": false,
+        "primary": true
+      }
+    ]
+  }
 }
