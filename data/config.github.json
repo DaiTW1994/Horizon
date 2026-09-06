@@ -255,9 +255,14 @@
     "profile_order": [
       "tech-news",
       "tech-blog",
-      "finance-news"
+      "finance-news",
+      "politics" 
     ],
-    "category_groups": {},
+    "category_groups": {
+          "技术动态": ["tech-news", "tech-blog"],
+          "财经要点": ["finance-news"],
+          "时政观察": ["politics"]
+    },
     "default_group": "other",
     "default_group_limit": null
   },
