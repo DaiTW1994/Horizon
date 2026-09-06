@@ -5,22 +5,32 @@
     "zh": "时政观察",
     "en": "Politics"
   },
-  "match": "match.txt",
+  "match": "match.md",
   "analysis": "analysis.md",
   "content": {
-    "analysis_max_chars": 1000,
+    "analysis_max_chars": 4000,
     "enrichment_max_chars": 8000,
-    "sampling": "head-middle-tail"
+    "sampling": "prefix"
   },
   "enrichment": {
     "prompt": "enrichment.md",
     "blocks": [
       {
-        "id": "background",
+        "id": "context",
+        "type": "section",
+        "tools": [],
+        "primary": true
+      },
+      {
+        "id": "stakeholders",
+        "type": "section",
+        "tools": ["web_search"]
+      },
+      {
+        "id": "implications",
         "type": "section",
         "tools": ["web_search"],
-        "optional": false,
-        "primary": true
+        "optional": true
       }
     ]
   }
