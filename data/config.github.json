@@ -33,6 +33,10 @@
         "politics": {
         "threshold": 7.0,
         "topic_dedup": true
+      },
+        "art-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
       }
     }
   },
@@ -159,6 +163,20 @@
         "enabled": true,
         "category": "linux-kernel",
         "profile": "tech-news"
+      },
+      {
+        "name": "Artnews",
+        "url": "https://www.artnews.com/feed/",
+        "enabled": true,
+        "category": "art",
+        "profile": "art-news"
+      },
+      {
+        "name": "Artforum",
+        "url": "https://www.artforum.com/c/news/feed/",
+        "enabled": true,
+        "category": "art",
+        "profile": "art-news"
       },
       {
         "name": "Al Jazeera",
