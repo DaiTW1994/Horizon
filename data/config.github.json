@@ -168,14 +168,14 @@
         "name": "Artnews",
         "url": "https://www.artnews.com/feed/",
         "enabled": true,
-        "category": "art",
+        "category": "art-news",
         "profile": "art-news"
       },
       {
         "name": "Artforum",
         "url": "https://www.artforum.com/c/news/feed/",
         "enabled": true,
-        "category": "art",
+        "category": "art-news",
         "profile": "art-news"
       },
       {
@@ -288,7 +288,8 @@
       "tech-news",
       "tech-blog",
       "finance-news",
-      "politics" 
+      "politics",
+      "art-news"
     ],
     "category_groups": {
           "技术动态": {
@@ -301,6 +302,10 @@
         },
           "时政观察":{
             "categories": ["politics"],
+            "limit": 8
+        },
+          "艺术新闻":{
+            "categories": ["art-news"],
             "limit": 8
         }
     },
