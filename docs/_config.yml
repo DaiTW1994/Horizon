@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: 全球要闻
-description: 每周六七点，汇聚世界要闻
+description: 每周六清晨，汇聚世界要闻
 baseurl: "/Horizon" # the subpath of your site, e.g. /blog
 url: "https://thysrael.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
